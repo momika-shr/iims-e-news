@@ -1,0 +1,89 @@
+body{
+	margin: 0 auto
+}
+
+.userName{
+	position: absolute;
+	left: 20px;
+	top: 20px
+}
+
+#upload{
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 570px;
+	width: 600px;
+	padding-top: 50px;
+	text-align: center;
+	box-shadow: 5px 5px 10px black;
+}
+
+#upload input{
+	height: 20px;
+	width:200px;
+	margin-bottom: 30px;
+	margin-top: 10px
+}
+
+#upload select option{
+	height: 20px;
+	width:215px;
+	margin-bottom: 30px
+}
+
+#upload h2{
+	margin: 0 0 40px 0
+}
+
+#upload img{
+	position: absolute;
+	left: 400px;
+	top: 35px;
+	height: 80px
+}
+
+#upload select{
+	margin: 10px 0 20px 0;
+}
+
+#upload p{
+	font-weight: bold;
+	padding: 0;
+	margin: 0px 0;
+}
+
+#upload input[name="upload"]{
+	background: #01245e;
+	height: 30px;
+}
+
+#upload button[name="logout"]{
+	background: #ae1215;
+	color: white;
+	border: 2px solid #ae1215;
+	position: absolute;
+	top: 25px;
+	right: 20px
+}
+
+#upload textarea{
+	margin-bottom: 20px
+}
+
+#upload input[type="file"] {
+	height: 30px
+}
+#upload .logout {
+	background-color: #ae1215;
+	padding: 5px 10px;
+	color: white;
+	box-shadow: 3px 4px 5px #444;
+	position: absolute;
+	top: 20px;
+	right: 20px
+}
+#upload .logout:active{
+	top: 22px;
+	right: 18px;
+	box-shadow: none;	
+}

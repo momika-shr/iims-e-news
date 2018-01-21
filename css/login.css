@@ -1,0 +1,52 @@
+.left{
+	position: absolute;
+	left: 150px;
+	top: 100px;
+}
+
+.left h1{
+	font-size: 60px;
+	letter-spacing: 8px;
+	margin: 0 0 -30px -20px;
+}
+
+.left p{
+	margin: 0 0 0 -28px;
+}
+
+.left img{
+	z-index: -8888;
+	position: absolute;
+	top: -60px;
+	left: 0;
+	height: 550px;
+	opacity: 0.2;
+}
+
+.right{
+	width: 440px;
+	position: absolute;
+	background: #CFD8DC;
+	height: 390px;
+	right: 150px;
+	top: 100px;
+	border-radius:5%;
+	box-shadow: 5px 5px 10px 0 black	
+}
+
+.login{
+	color: #01245e;
+	margin-bottom: 0;
+}
+
+input[name="login"]{
+	background-color: #01245e
+}
+
+input[name="signup"]{
+	background-color: #ae1215
+}
+
+form{
+
+}

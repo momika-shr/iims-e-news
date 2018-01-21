@@ -1,0 +1,29 @@
+.formFill{
+	
+	width: 500px;
+	margin-top:20px;
+	padding: 25px 40px 30px 40px;
+	background-color :#CFD8DD;
+	z-index:-22;
+	border-radius:5%;
+	box-shadow:5px 5px 10px black;
+
+}
+.signupContent{
+	color: #01245e;
+	margin:35px 0 135px -20px;
+	width:500px;
+}
+
+#signupimg{
+	height: 230px;
+	position: absolute;
+	z-index: 0;
+	top: 65px;
+	left: 43.5%;
+	opacity: 0.5;
+}
+
+input[name="signup"]{
+	background-color: #01245e;
+}

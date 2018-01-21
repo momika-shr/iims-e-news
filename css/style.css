@@ -1,0 +1,102 @@
+@import url("signup.css");
+@import url("login.css");
+@import url("form.css");
+
+
+*{
+	margin: 0 auto;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	font-family: centuryG;
+}
+
+@font-face {
+    font-family: centuryG;
+    src: url(../font/CenGo.ttf);
+}
+
+body{
+		margin:0;
+	padding: 0;
+}
+/*for index page*/
+/*header*/
+header{
+	height: 50px;
+	background-color: #000000;
+	color: white;
+	margin:0;
+	padding: 0;
+}
+
+header ul li{
+	display: inline-block;
+	margin: auto 180px;
+	line-height: 50px
+}
+
+header a{
+	color: white
+}
+
+nav ul li:first-child{
+	float: left;
+	margin-left: 0;
+}
+
+nav ul li:last-child{
+	float: right;
+	margin-right: 50px;
+}
+
+#logo{
+	position: absolute;
+	top: 40px
+}
+/* Form css of login and signup page*/
+h1{
+	padding: 50px 20px 30px;
+	margin-bottom: 50px;
+}
+
+form input{
+	height: 20px;
+	width: 250px;
+	padding: 5px 20px;
+	display: block;
+	margin:20px auto;
+	text-align: left;
+}
+
+form input:hover{
+	outline: 1px solid #B2EBF2;
+}
+form input:active{
+	outline: 1px solid #000;	
+}
+form input:focus{
+	outline: 1px solid #000;	
+}
+
+input[type="submit"]{
+	width:292px;
+	height: 35px;
+	text-align: center;
+	border:0;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 2px 5px 5px 0px #333
+}
+
+input[type="submit"]:hover{
+	outline:none;
+	opacity: 0.9;
+}
+input[type="submit"]:active{
+		transform: translate(0px,5px);
+		box-shadow: none;
+}
+
